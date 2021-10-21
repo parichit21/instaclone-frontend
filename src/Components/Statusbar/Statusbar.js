@@ -79,7 +79,7 @@ class StatusBar extends Component {
         // ]
         // this.setState({statusList: data});
 
-        fetch('http://localhost:8080/status')
+        fetch('https://instagramclonebyparichit-back.herokuapp.com/status')
             .then(response => response.json())
             .then(data => {
                 this.setState({statusList: data});
@@ -120,7 +120,7 @@ class StatusBar extends Component {
                     body : JSON.stringify(payload),
                 }
     
-                fetch('http://localhost:8080/status', requestOptions)
+                fetch('https://instagramclonebyparichit-back.herokuapp.com/status', requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     thisContext.getData();
