@@ -136,36 +136,6 @@ class StatusBar extends Component {
 
     render() { 
         return ( 
-        // <div>
-        //     <div className="statusbar__container">
-        //     <div className="fileupload">
-        //         <label for= "file-upload-status" >
-        //             <img className="statusbar__upload" src={uploadimage} width="55px" height="55px" />
-        //         </label>
-        //             <input id="file-upload-status" onChange={this.uploadStatus} type="file"/>
-        //     </div>
-        //          {
-        //             // this.state.statusList.map((item,index)=> (
-        //             //     <div className="status">
-        //             //         <Avatar className="statusbar__status" src={item.path} />
-        //             //         <div className="statusbar__text">{item.userName}</div>
-        //             //     </div>
-        //             // ))
-        //             this.state.statusList.map((item, index)=>(
-        //                 <div className="status">
-        //                     <Avatar className="statusbar__status" src={item.imageURL} />
-        //                     <div className="statusbar__text">{item.username}</div>
-
-        //                     </div>
-
-                        
-        //             ))
-        //         }
-        //     </div>
-        // </div>
-
-
-
 
         <div>
         <div className="statusbar__container">
