@@ -44,7 +44,7 @@ class MainPage extends Component {
         //     }
         // ];
         // this.setState({postArray: data});
-        fetch('http://localhost:8080/post')
+        fetch('https://instagramclonebyparichit-back.herokuapp.com/post')
             .then(response => response.json())
             .then(data => {
                 thisContext.setState({postArray: data});
@@ -84,7 +84,7 @@ class MainPage extends Component {
                     body : JSON.stringify(payload),
                 }
     
-                fetch("http://localhost:8080/post",requestOptions)
+                fetch("https://instagramclonebyparichit-back.herokuapp.com/post",requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
